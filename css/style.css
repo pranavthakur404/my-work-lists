@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    font-size: 10px;
+    overflow-x:hidden;
+    background-color: #fafafa;
+}
+.container{
+   max-width: 1250px;
+   margin: 0 auto;
+}
+/* header start */
+header{
+    width: 100%;
+    padding: 25px;
+    font-size: 1rem;
+    background-color: yellow;
+    box-shadow: 0px 5px 7px grey;
+}
+
+/* main start */
+main{
+    padding: 1%;
+    padding-top: 0px;
+}
+.container{
+    margin-top: 50px;
+}
+
+/* task input start */
+.task-input input{
+    width: 70%;
+    padding: 7px;
+    font-size: 1rem;
+}
+.task-input textarea{
+    width: 70%;
+    height:100px;
+    padding: 5px;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+/* task input ends */
+
+ /* add task button start */
+.add-task-btn{
+    padding: 7px 15px;
+    font-weight: bolder;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.add-task-btn .fa{
+    margin-left: 10px;  
+}
+ /* add task button end */
+.big-task-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task-block{
+    margin-top: 50px;
+    width: 30%;
+    border: 2px solid black;
+    margin-right: 25px;
+}
+.task-block .buttons{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    background-color: grey;
+}
+.task-block .buttons button{
+    padding: 3px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.task-block .buttons .done-btn{
+    display: none;
+}
+.task-block .text{
+    position: relative;
+    padding: 1%;
+    background-color: white;
+}
+.task-block h3{
+     font-size: 1rem;
+}
+.task-block p{
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+.task-block .text textarea{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+    display: none;
+}
+/* task block ends */
+
